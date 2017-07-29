@@ -6,21 +6,16 @@
 #header {
   background-image: url('file://C:/codingprojects/broadway/resources/images/the-flatiron-building.png');
   background-size: cover;
-  height: 250px;
-}
-
-h2 {
-  color: white;
-  font-size: 70px;
-  font-weight: bold;
-}
-
-#header p {
-  color: white;
-  font-size: 18px;
+  height: 275px;
 }
 
 h1 {
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+}
+
+h2 {
   font-size: 32px;
   font-weight: bold;
 }
@@ -29,15 +24,26 @@ p {
   font-size: 14px;
 }
 
-ul {
+ul li {
   padding-top: 5px;
+  list-style: none;
+  line-height: normal;
+  font-size: 18px;
+  color: white;
 }
 
-h2 {
+h4 {
   font-size: 23px;
   font-weight: bold;
   color: white;
   background-image: url('file://C:/codingprojects/broadway/resources/images/the-flatiron-building.png');
   background-size: cover;
   height: 30px;
+}
+
+#copyright p {
+  text-align: left;
+  background-color: dimgray;
+  font-size: 11px;
+  color: white;
 }
