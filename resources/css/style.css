@@ -4,10 +4,12 @@
 }
 
 #header {
-  background: src(.\resources\images\the-flatiron-building.png);
+  background-image: url('file://C:/codingprojects/broadway/resources/images/the-flatiron-building.png');
+  background-size: cover;
+  height: 250px;
 }
 
-.h2 {
+h2 {
   color: white;
   font-size: 70px;
   font-weight: bold;
@@ -27,9 +29,15 @@ p {
   font-size: 14px;
 }
 
-#footer h2 {
+ul {
+  padding-top: 5px;
+}
+
+h2 {
   font-size: 23px;
   font-weight: bold;
   color: white;
-  background: src(.\resources\images\the-flatiron-building.png);
+  background-image: url('file://C:/codingprojects/broadway/resources/images/the-flatiron-building.png');
+  background-size: cover;
+  height: 30px;
 }
